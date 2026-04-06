@@ -7,11 +7,6 @@
 
 > **⚠️ Requirements:** PHP 8.4 or higher is required. PHP 8.3 is NOT supported.
 
-## Screenshot
-
-![Employee List Page](screenshot.png)
-
-*Employee list showing department, profile, and project relationships*
 
 ## Database Relationships
 
@@ -69,8 +64,7 @@ php artisan serve
 npm run dev
 ```
 ----------------------------------
-ERD:
-![Employee List](screenshot/erd.jpg)
+
 Author
 rimerGAB
 
