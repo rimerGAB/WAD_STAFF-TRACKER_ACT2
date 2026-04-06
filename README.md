@@ -18,7 +18,7 @@
 
 ## ER Diagram
 
-![ER Diagram](erd.jpg)
+![ER Diagram](screenshot/erd.jpg)
 
 ## Tables
 
