@@ -132,14 +132,14 @@ php artisan serve
 
 | Feature | Admin | Regular Employee |
 |---------|-------|------------------|
-| View all employees | Yes | No (own only) |
-| Edit employees | Yes | Yes (own only) |
-| Delete employees | Yes | No |
-| Manage departments | Yes | No |
-| Manage projects | Yes | No |
-| Create assignments | Yes | No |
-| Edit assignments | Yes | No |
-| Delete assignments | Yes | No |
-| View assignments | Yes | Yes (own only) |
-| Change department | Yes | No |
-| Change password | Yes | Yes |
+| View all employees | ✓ | ✗ (own only) |
+| Edit employees | ✓ | ✓ (own only) |
+| Delete employees | ✓ | ✗ |
+| Manage departments | ✓ | ✗ |
+| Manage projects | ✓ | ✗ |
+| Create assignments | ✓ | ✗ |
+| Edit assignments | ✓ | ✗ |
+| Delete assignments | ✓ | ✗ |
+| View assignments | ✓ | ✓ (own only) |
+| Change department | ✓ | ✗ |
+| Change password | ✓ | ✓ |
