@@ -145,30 +145,30 @@ php artisan serve
 | Change password | ✓ | ✓ |
 
 
-
-staff-tracker/
+Staff-tracker/
 ├── app/
-│   ├── Http/
-│   │   └── Controllers/
-│   │       ├── EmployeeController.php
-│   │       ├── DepartmentController.php
-│   │       ├── ProjectController.php
-│   │       ├── AssignmentController.php
-│   │       └── DashboardController.php
-│   └── Models/
-│       ├── Employee.php
-│       ├── Department.php
-│       ├── Project.php
-│       └── Assignment.php
+│ ├── Http/
+│ │ └── Controllers/
+│ │ ├── EmployeeController.php
+│ │ ├── DepartmentController.php
+│ │ ├── ProjectController.php
+│ │ ├── AssignmentController.php
+│ │ └── DashboardController.php
+│ └── Models/
+│ ├── Employee.php
+│ ├── Department.php
+│ ├── Project.php
+│ └── Assignment.php
 ├── database/
-│   ├── migrations/
-│   └── seeders/
+│ ├── migrations/
+│ └── seeders/
 ├── resources/
-│   └── views/
-│       ├── employees/
-│       ├── departments/
-│       ├── projects/
-│       ├── assignments/
-│       └── dashboard.blade.php
+│ └── views/
+│ ├── employees/
+│ ├── departments/
+│ ├── projects/
+│ ├── assignments/
+│ └── dashboard.blade.php
 └── routes/
-    └── web.php
+└── web.php
+        
