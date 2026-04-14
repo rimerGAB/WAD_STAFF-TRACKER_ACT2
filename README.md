@@ -81,13 +81,13 @@
 
 ### Employees Management
 *Full CRUD operations with role-based access control*
-![](screensho/emp.jpg)
+![](screenshot/emp.jpg)
 ### Projects Management
 *Track project budgets and assigned employees*
-![](screensho/prj.jpg)
+![](screenshot/prj.jpg)
 ### Assignments Management
 *Assign employees to projects with roles and hours*
-![](screensho/ass.jpg)
+![](screenshot/ass.jpg)
 ## Installation
 
 ```bash
