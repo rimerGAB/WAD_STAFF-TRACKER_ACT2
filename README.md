@@ -143,3 +143,31 @@ php artisan serve
 | View assignments | ✓ | ✓ (own only) |
 | Change department | ✓ | ✗ |
 | Change password | ✓ | ✓ |
+
+--------------------------------------
+
+
+
+staff-tracker/
+├── app/
+│   ├── Http/Controllers/
+│   │   ├── EmployeeController.php
+│   │   ├── DepartmentController.php
+│   │   ├── ProjectController.php
+│   │   ├── AssignmentController.php
+│   │   └── DashboardController.php
+│   └── Models/
+│       ├── Employee.php
+│       ├── Department.php
+│       ├── Project.php
+│       └── Assignment.php
+├── database/
+│   ├── migrations/
+│   └── seeders/
+├── resources/views/
+│   ├── employees/
+│   ├── departments/
+│   ├── projects/
+│   ├── assignments/
+│   └── dashboard.blade.php
+└── routes/web.php
