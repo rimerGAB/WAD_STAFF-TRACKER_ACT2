@@ -150,12 +150,13 @@ php artisan serve
 
 staff-tracker/
 ├── app/
-│   ├── Http/Controllers/
-│   │   ├── EmployeeController.php
-│   │   ├── DepartmentController.php
-│   │   ├── ProjectController.php
-│   │   ├── AssignmentController.php
-│   │   └── DashboardController.php
+│   ├── Http/
+│   │   └── Controllers/
+│   │       ├── EmployeeController.php
+│   │       ├── DepartmentController.php
+│   │       ├── ProjectController.php
+│   │       ├── AssignmentController.php
+│   │       └── DashboardController.php
 │   └── Models/
 │       ├── Employee.php
 │       ├── Department.php
@@ -164,10 +165,12 @@ staff-tracker/
 ├── database/
 │   ├── migrations/
 │   └── seeders/
-├── resources/views/
-│   ├── employees/
-│   ├── departments/
-│   ├── projects/
-│   ├── assignments/
-│   └── dashboard.blade.php
-└── routes/web.php
+├── resources/
+│   └── views/
+│       ├── employees/
+│       ├── departments/
+│       ├── projects/
+│       ├── assignments/
+│       └── dashboard.blade.php
+└── routes/
+    └── web.php
