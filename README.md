@@ -1,4 +1,4 @@
-# Staff Tracker System
+# ASSIGNLY
 
 ![PHP 8.4+](https://img.shields.io/badge/PHP-8.4%2B-777BB4)
 ![Laravel 13](https://img.shields.io/badge/Laravel-13-FF2D20)
