@@ -146,7 +146,6 @@ php artisan serve
 
 
 
-
 staff-tracker/
 ├── app/
 │   ├── Http/
