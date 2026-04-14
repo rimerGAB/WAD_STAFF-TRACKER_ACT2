@@ -122,7 +122,9 @@ php artisan serve
 
 --------------------------------
 Default Login Credentials
+__________________________
 Role	Email	Password
+_________________________
 Admin	admin@example.com	password
 Employee	john@example.com	password
 Employee	jane@example.com	password
