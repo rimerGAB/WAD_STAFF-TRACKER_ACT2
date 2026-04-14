@@ -118,3 +118,25 @@ npm run build
 
 # Start server
 php artisan serve
+```
+
+--------------------------------
+Default Login Credentials
+Role	Email	Password
+Admin	admin@example.com	password
+Employee	john@example.com	password
+Employee	jane@example.com	password
+Access Rules
+Feature	Admin	Regular Employee
+View all employees	✅	❌ (own only)
+Edit employees	✅	✅ (own only)
+Delete employees	✅	❌
+Manage departments	✅	❌
+Manage projects	✅	❌
+Create assignments	✅	❌
+Edit assignments	✅	❌
+Delete assignments	✅	❌
+View assignments	✅	✅ (own only)
+Change department	✅	❌
+Change password	✅	✅
+-----------------------------
