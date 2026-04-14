@@ -35,17 +35,13 @@
 - Delete protection with foreign key constraints
 
 ## Database Relationships
-+----------------+---------------------+--------------------------------------------------+
-| Relationship   | Type                | Tables                                           |
-+----------------+---------------------+--------------------------------------------------+
-| One-to-One     | Employee → Profile  | One employee has one profile                     |
-| One-to-Many    | Department → Employee | One department has many employees              |
-| Many-to-Many   | Employee ↔ Project  | Many employees work on many projects            |
-|                |                     | (via Assignment pivot)                           |
-| One-to-Many    | Employee → Assignment | One employee has many assignments              |
-| One-to-Many    | Project → Assignment | One project has many assignments               |
-+----------------+---------------------+--------------------------------------------------+
-
+| Relationship | Type | Tables |
+|--------------|------|--------|
+| One-to-One | Employee → Profile | One employee has one profile |
+| One-to-Many | Department → Employee | One department has many employees |
+| Many-to-Many | Employee ↔ Project | Many employees work on many projects (via Assignment pivot) |
+| One-to-Many | Employee → Assignment | One employee has many assignments |
+| One-to-Many | Project → Assignment | One project has many assignments |
 ## Pivot Table (Assignment)
 | Column | Type | Description |
 |--------|------|-------------|
