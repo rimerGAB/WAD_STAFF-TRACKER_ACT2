@@ -144,7 +144,7 @@ php artisan serve
 | Change department | ✓ | ✗ |
 | Change password | ✓ | ✓ |
 
---------------------------------------
+
 
 
 
