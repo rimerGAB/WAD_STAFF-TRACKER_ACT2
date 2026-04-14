@@ -77,17 +77,17 @@
 
 ### Dashboard with Analytics
 *Interactive charts showing department distribution, project budgets, and hours tracking*
-!(screenshot/dash.jpg)
+![](screenshot/dash.jpg)
 
 ### Employees Management
 *Full CRUD operations with role-based access control*
-!(screensho/emp.jpg)
+![](screensho/emp.jpg)
 ### Projects Management
 *Track project budgets and assigned employees*
-!(screensho/prj.jpg)
+![](screensho/prj.jpg)
 ### Assignments Management
 *Assign employees to projects with roles and hours*
-!(screensho/ass.jpg)
+![](screensho/ass.jpg)
 ## Installation
 
 ```bash
