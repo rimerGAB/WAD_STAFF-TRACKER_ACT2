@@ -144,31 +144,31 @@ php artisan serve
 | Change department | ✓ | ✗ |
 | Change password | ✓ | ✓ |
 
+--------------------------------------------------------------------
+Features Implemented
+Full CRUD operations for all entities
 
-Staff-tracker/
-├── app/
-│ ├── Http/
-│ │ └── Controllers/
-│ │ ├── EmployeeController.php
-│ │ ├── DepartmentController.php
-│ │ ├── ProjectController.php
-│ │ ├── AssignmentController.php
-│ │ └── DashboardController.php
-│ └── Models/
-│ ├── Employee.php
-│ ├── Department.php
-│ ├── Project.php
-│ └── Assignment.php
-├── database/
-│ ├── migrations/
-│ └── seeders/
-├── resources/
-│ └── views/
-│ ├── employees/
-│ ├── departments/
-│ ├── projects/
-│ ├── assignments/
-│ └── dashboard.blade.php
-└── routes/
-└── web.php
+Eloquent relationships with eager loading
+
+Interactive dashboard with Chart.js graphs
+
+Role-based authentication and authorization
+
+Admin middleware for protected routes
+
+Dynamic UI (buttons hide/show based on role)
+
+Responsive Bootstrap 5 design
+
+Foreign key constraint protection on delete
+
+SQLite database support
+-----------------------------------------------------------------
+License
+MIT
+
+Author
+rimerGAB
+------------------------------------------------
+Built with Laravel 13
         
